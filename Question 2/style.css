@@ -1,0 +1,35 @@
+.container{
+    height: 400px;
+    width: 1200px;
+    border: 2px solid black;
+    position: relative;
+    top: 150px;
+    left: 10%;
+}
+
+h1{
+    padding: 5px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    padding: 10px;
+    border-left: 2px solid black;
+}
+
+.col1{
+    padding: 10px;
+}
+
+.col p{
+    background-color: rgb(136, 136, 136);
+}
+
+.col1 p{
+    background-color: rgb(136, 136, 136);
+}
+

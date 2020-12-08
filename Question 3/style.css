@@ -1,0 +1,40 @@
+.container{
+    width: 1200px;
+    position: relative;
+    top: 150px;
+    left: 10%;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    height: 400px;
+}
+  
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+  
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+  
+@media (max-width: 1400px) {
+    .container{
+        width: 800px;
+        margin: 5px;
+    }
+    
+    .flex-container {
+      flex-direction: column;
+    }
+
+}

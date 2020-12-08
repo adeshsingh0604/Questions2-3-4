@@ -1,0 +1,35 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 10%;
+}
+
+#one {
+    grid-column: 1 / 4;
+    height: 80px;
+    background-color: rgb(255, 133, 46);
+}
+
+#two {
+    grid-row: 2 / 4;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(2, 9, 107);
+}
+
+#three {
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+#four {
+    grid-column: 1 / 4;
+    height: 170px;
+    background-color: rgb(41, 116, 26);
+}
